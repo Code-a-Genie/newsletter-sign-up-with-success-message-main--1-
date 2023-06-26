@@ -94,7 +94,7 @@ ul li::before{
     position:absolute;
 }
    /*  Thank you message*/
-   #success{
+   #thankYou{
     width: 375px;
     margin:auto;
     background-color: white;
