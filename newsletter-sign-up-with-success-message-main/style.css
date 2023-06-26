@@ -93,4 +93,25 @@ ul li::before{
     top:5px;
     position:absolute;
 }
-   
+   /*  Thank you message*/
+   #success{
+    width: 375px;
+    margin:auto;
+    background-color: white;
+    /* padding:20px; */
+    /* padding-top:200px; */
+   }
+
+   .message{
+    /* margin-bottom:250px; */
+    font-weight:500;
+    line-height:1.5rem;
+   }
+   .button{
+    width:fit-content;
+    /* margin-left:auto; */
+    margin-right:50%;
+   }
+   #errorText{
+    color:hsl(4, 100%, 67%);
+   }
