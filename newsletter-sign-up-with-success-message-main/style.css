@@ -72,6 +72,10 @@ body{
     width:fit-content;
    }
 
+#errorText{
+ color:hsl(4, 100%, 67%);
+}
+
    .group{
     width:fit-content;
    }
@@ -98,20 +102,23 @@ ul li::before{
     width: 375px;
     margin:auto;
     background-color: white;
-    /* padding:20px; */
-    /* padding-top:200px; */
+    padding:20px;
+    padding-top:200px;
    }
 
    .message{
-    /* margin-bottom:250px; */
+    margin-bottom:250px;
     font-weight:500;
     line-height:1.5rem;
    }
    .button{
-    width:fit-content;
+    width: 40px;
     /* margin-left:auto; */
-    margin-right:50%;
+    margin-right:auto;
+    margin-left:auto;
    }
-   #errorText{
-    color:hsl(4, 100%, 67%);
-   }
+   /* .button-container{
+    display: block;
+    justify-content: center;
+   } */
+   
